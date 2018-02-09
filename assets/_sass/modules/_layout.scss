@@ -1,0 +1,250 @@
+html, body {
+  padding:0;
+  margin:0;
+  overflow-x:hidden;
+  width:100%;
+}
+
+.column {
+  flex-direction:column;
+}
+
+.fh-100 {
+      @media (min-width: $desktop) {
+    padding: 0;
+    height: 100vh;
+  }
+    }
+
+    .z-2 {
+      z-index: 2;
+    }
+
+
+      @media (min-width: $desktop) {
+        .mob-yes {
+          display:none !important;
+        }
+      }
+
+      @media (max-width: $desktop) {
+        .mob-no {
+          display:none
+        }
+      }
+
+.p-0 {
+  padding:0;
+}
+
+.m-40 {
+  margin: 40px 0;
+}
+
+.m-24 {
+  margin: 24px 0;
+}
+
+.white {
+  background: $white;
+}
+
+.grey {
+  background: $grey;
+}
+
+.blue {
+  background: $blue;
+}
+
+.padding {
+  padding: 80px 16px;
+}
+
+section {
+  padding: 40px 0;
+  width: 100%;
+}
+
+.hero {
+    background: url(../img/1440x620-hero-bg.svg);
+    background-size: cover;
+    width:100%;
+    padding: 80px 0;
+
+
+    @media (max-width: $desktop) {
+    background-position: top;
+    margin-top: -4px;
+  }
+
+  @media (min-width: $desktop) {
+    min-height: 742px;
+  }
+
+  .carousel-indicators {
+    bottom: -40px;
+  }
+}
+
+.img-1, .img-2, .img-3 {
+  max-width: 560px;
+  box-shadow: 1px 1px 16px 0px rgba(0,0,0,.3);
+margin: 16px 0;
+
+  @media (max-width: $desktop) {
+    width: 100%;
+  }
+}
+
+.subnav {
+  padding: 24px 0;
+  border-bottom: $border;
+  p {
+  margin-bottom: 0;
+}
+
+@media (max-width: $desktop) {
+  display: none;
+}
+}
+
+.tab-layout {
+  padding: 0 0 80px 0;
+}
+
+.tab{
+  padding: 0 0 32px 0;
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.features {
+
+.carousel-inner {
+  padding: 40px 0;
+}
+
+.carousel-indicators {
+  margin: 0;
+  position: relative;
+
+  p {
+    padding-bottom: 16px;
+    text-align:center;
+    margin-left:auto;
+    margin-right: auto;
+
+  }
+
+  .form-group {
+    padding: 8px 0;
+  }
+
+
+
+  .active {
+    border-bottom: 2px solid $blue;
+  }
+}
+
+.troubleshooting {
+  max-width: 535px;
+  width: 100%;
+
+  @media (max-width: $desktop) {
+  padding: 40px 0;
+}
+}
+
+.end-user {
+  max-width: 535px;
+  width: 100%;
+  @media (max-width: $desktop) {
+  padding: 40px 0;
+}
+}
+
+.mgmt {
+  max-width: 414px;
+  width: 100%;
+  @media (max-width: $desktop) {
+  padding: 40px 0;
+}
+}
+
+.support {
+  max-width: 535px;
+  width: 100%;
+  @media (max-width: $desktop) {
+  padding: 40px 0;
+}
+}
+
+.multi {
+  max-width: 547px;
+  width: 100%;
+  @media (max-width: $desktop) {
+  padding: 40px 0;
+}
+}
+
+.reporting {
+  max-width: 720px;
+  width: 100%;
+  @media (max-width: $desktop) {
+  padding: 40px 0;
+}
+}
+
+.customers {
+  padding: 0 0 40px 0;
+
+}
+
+.icon {
+  padding-bottom: 16px;
+    width: 70px;
+}
+
+}
+
+.ui-loader {
+  display: none;
+}
+
+
+
+footer {
+  width: 100%;
+
+  img {
+    width: 100%;
+  }
+}
+
+.nav {
+    width: 100%;
+}
+
+.mobile-nav {
+  height:80px;
+  background: $white;
+
+  .logo {
+    width:120px;
+  }
+
+  .burg {
+    margin-left:auto;
+    width: 32px;
+  }
+}
+
+
+
+.wow {
+  visibility: hidden;
+}

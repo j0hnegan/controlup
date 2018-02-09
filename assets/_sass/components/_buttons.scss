@@ -1,0 +1,99 @@
+// Buttons and Links
+
+a {
+  color: $blue;
+  text-decoration: none;
+
+  &:hover, &:active, &:visited, &:focus {
+    color: $blue;
+    text-decoration: none;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+
+}
+
+.hero {
+  .main-cta {
+  a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: $white;
+    text-decoration: underline;
+    margin-right: 32px;
+    font-size: 18px;
+  }
+}
+}
+
+.btn {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  background: $blue;
+  border-radius: 6px;
+  font-weight: 600;
+  color: $white;
+  padding: 16px;
+  transition: box-shadow 0.15s ease-in-out;
+
+  @media (max-width: $desktop) {
+  margin-bottom:24px;
+}
+
+
+
+
+
+  &:hover {
+    background: $blue;
+    transition: box-shadow 0.15s ease-in-out;
+  }
+
+  &-outline {
+    background: transparent;
+    border: 1px solid $white;
+
+    &:hover {
+      background: $white;
+      color: $grey;
+    }
+  }
+}
+
+.no-shadow {
+      box-shadow: none;
+
+      &:hover {
+        box-shadow: none;
+      }
+    }
+
+
+
+
+  @keyframes carat-nudge {
+    0%   {margin-left:12px;}
+    25%  {margin-left: 13px}
+    50%  {margin-left: 14px}
+    75%  {margin-left: 13px}
+    100% {margin-left: 12px}
+}
+
+
+
+
+
+.link {
+  color: $blue;
+  text-decoration: none;
+  font-weight: 500;
+
+  &:hover, &:active, &:visited, &:focus {
+    color: $blue;
+    text-decoration: underline;
+  }
+
+}
